@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Dancing+Script:wght@500&family=Montserrat:ital@1&family=Playfair+Display:ital,wght@1,500&family=Poppins:ital,wght@0,100;1,200&family=Romanesco&family=Tilt+Neon&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+}
+
+ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Poppins;
+    margin: 12px;
+}
+
+ul a:hover{
+    font-size: 20px;
+    color: chocolate;
+    transition: 0.5s ease-in-out;
+}
+
+.formarea{
+    width: 100%;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-image{
+    width: 50%;
+    height: 500px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.form1{
+    width: 50%;
+    height: 500px;
+    /* background-color: blueviolet; */
+}
+
+form{
+    width: 80%;
+    height: 100%;
+    padding: 20px;
+}
+
+
+input{
+    width: 80%;
+    height: 40px;
+    margin: 10px;
+
+}
+
+button{
+    width: 200px;
+    height: 40px;
+}
+textarea{
+    width: 80%;
+    position: relative;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background: black;
+    position: relative;
+    top: 30px;
+}
+
+.footer h3{
+    color: white;
+    text-align: center;
+    position: relative;
+    
+}
+
+#Biz{
+    font-family: Dancing Script;
+    font-size: 30px;
+    color: sandybrown;
+}
+
+@media(max-width:500px){
+    .container{
+        width: 500px;
+        height: auto;
+}
+
+.navbar{
+    width: 500px;
+    height: 50px;
+}
+
+ul{
+    position: relative;
+    right: 80px;
+}
+ul a{
+    font-size: 14px;
+}
+
+.formarea{
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-image{
+    width: 500px;
+    height: 300px;
+}
+
+form1{
+    width: 500px;
+    height: 300px;
+}
+
+form{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    top: 100px;
+}
+
+.footer{
+    width: 500px;
+    height: 60px;
+    position: relative;
+    top: 160px;
+}
+
+.footer h3{
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    left: 60px;
+    top: 20px;
+}
+
+
+}
